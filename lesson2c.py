@@ -16,3 +16,19 @@ print(type(phonebook))
 
 #printing the value of a specific key
 print(phonebook["John"])
+
+print("=========")
+
+player = {
+    "name": "Lionel Messi",
+    "club": ["Paris Saint Germain", "Barcelona", "Argentina"],
+    "age": 40 
+    
+    }
+
+
+# print Barcelona
+print(player["club"][1])
+
+# print second phone number
+print(player["more"]["number"][1])
